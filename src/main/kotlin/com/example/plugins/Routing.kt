@@ -9,7 +9,7 @@ import io.ktor.http.*
 
 import com.example.model.*
 
-fun Application.configureRouting() {
+fun Application.configureTaskRouting() {
     routing {
 
         staticResources("/task-ui", "task-ui")
